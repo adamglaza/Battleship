@@ -1,0 +1,47 @@
+﻿#root {
+    margin: 0 auto;
+    text-align: center;
+}
+#game {
+    margin: 0 auto;
+    text-align: center;
+    align-content: center;
+}
+#board {
+    display: inline-block;
+}
+#board td {
+    height: 5vh;
+    width: 5vh;
+}
+tr:nth-child(even) {
+    background: #F2F2F2;
+}
+
+tr:nth-child(odd) {
+    background: #FFF;
+}
+
+th, td {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    color: #808080;
+}
+#navbar {
+    font-size: 120px;
+}
+.hit {
+    background: red
+}
+
+.empty {
+    background: gray
+}
+
+.miss {
+    background: white
+}
+
+.ship {
+    background: black
+}
